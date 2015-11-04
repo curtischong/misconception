@@ -1,0 +1,437 @@
+*{
+ font-family: Verdana;   
+}
+.center{
+    margin: 0 auto;
+}
+.xbutton{
+    color: white;
+    position: relative;
+    left: 4px;
+    top: -2px;
+}
+.write{
+     position: relative;
+    top: 30px;
+    width: 250px;
+    height: 200px;
+    word-wrap: break-word;
+    resize: none;
+    left: 20px;
+}
+.edit{
+    position: relative;
+    padding-top: 30px;
+    width: 200px;
+    left: 20px;
+    cursor: pointer;
+}
+.unchangeinfo{
+    position: relative;
+    left:20px;
+}
+.personaldata{
+ background-color: bisque;
+    padding-left: 20px;
+}
+#closecreate{
+ 	width: 18px;
+	height: 18px;
+	background: #005B80;
+	border-radius:9px;
+	position: relative;
+	top: 10px;
+	left: 360px;
+    cursor: pointer;
+}
+body{
+background-color: #EDEDED;
+}
+#htmlpage{
+    background-color: #E3E3E3;
+    position: relative;
+    top: -8px;
+    width: 1030px;
+    height: 850px;
+}
+#navbar{
+    position: fixed;
+    background-color: #35B7DB;
+    top: 0px;
+    height: 40px;
+    width: 100%;
+    left: 0px;
+    z-index: 1;
+}
+#navbarinfo{
+    position: relative;
+    top: -8px;
+    left: 0px;
+    height: 40px;
+    z-index: 1;
+}
+#generalsearch{
+    position: absolute;
+    top: 7px; 
+    left: 150px;
+    width: 300px;
+    height:20px;
+}
+#navprofile{
+    position: relative;
+    top: 0px;
+    left: 1200px;
+    width: 200px;
+    height: 40px;
+    background-color: #00A32C;
+    cursor: pointer;
+    z-index: 1;
+}
+#navprofile:hover{
+    background-color: #308014;
+}
+#profilesettingcon{
+    position: relative;
+    top: -40px;
+    width: 200px;
+    height: 40px;
+    left: 1200px;
+    background-color: #0880A8;
+    color:bisque;
+}
+#accountsettings{
+    text-align: center;
+    cursor: pointer;
+}
+#logout{
+    text-align: center;
+    cursor: pointer;
+}
+#hyperlinkbuttons{
+    position: absolute;
+    top: 0px;
+    left: 500px;
+    width: 470px;
+    color: white;
+}
+#browsebutton{
+    position: relative;
+    display: inline;
+    float: left;
+    padding: 10px;
+}
+#homepagelink{
+    position: relative;
+    display: inline;
+    float: left;
+    padding: 10px;
+    cursor: pointer;
+}
+#ask{
+    position: relative;
+    cursor: pointer;
+    display: inline;
+    float: left;
+    padding: 10px;
+}
+#forum{
+    position: relative;
+    display: inline;
+    float: left;
+    padding: 10px;
+}
+#createpopupbox{
+    position: relative;
+    top: 200px;
+    height: 200px;
+    width: 400px;
+    background-color: red;
+    z-index: 20;
+}
+#resourcelessoncreate{
+    position: relative;
+    top: 40px;
+    text-align: center;
+}
+#coursecreate{
+    position: relative;
+    top: 75px;
+    text-align: center;
+}
+#topbar{
+ background-color: #005B80;
+    height: 200px;
+    width: 1030px;
+}
+#yourstats{
+    position: absolute;
+    left: 400px;
+    top: 130px;
+    height: 140px;
+    width: 600px;
+    background-color: #BD0000;
+    font-size: 15px;
+    color: azure;
+}
+#stathr{
+    position: absolute;
+    top: 25px;
+    width: 550px;
+    height: 1px;
+    left: 25px;
+    border: none;
+    background-color: white;
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(white), to(#BD0000));
+}
+#stattable{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+#statistics{
+    top: 20px;
+    text-align: center;
+    font-size: 17px;
+}
+#milestoneawards{
+ position: absolute;
+    top: 160px;
+    width: 700px;
+    height: 40px;
+    background-color: #FFBC4F;
+}
+#personalinfo{
+    position: absolute;
+    top: 320px;
+    left: 50px;
+    height: 500px;
+    width: 250px;
+    background-color: #0A6CA8;
+}
+#savechanges{
+    position: absolute;
+    left: 20px;
+    top: 400px;
+}
+#cancelchangeinfo{
+    position: absolute;
+    left: 150px;
+    top: 400px;
+}
+#profile{
+ position: relative;
+    height: 150px;
+    width: 300px;
+    background-color: #0B7ABF;
+    border: solid white 1px;
+    top: -113px;
+    left: 50px;
+}
+#profiledata{
+    position: absolute;
+    top: 10px;
+    left:160px;
+}
+#name{
+ position: relative;
+    top: 20px;
+}
+#reputation{
+ position: relative;
+    top: 40px;
+}
+#rank{
+ position: relative;
+    top: 60px;
+}
+.statbox{
+ width: 175px;   
+}
+#detailedinfocon{
+ position: absolute;
+    top: 330px;
+    left:330px;
+}
+.detailedinfo{
+    height: 125px;
+    width: 670px;
+    background-color: #E3E3E3;
+}
+#yourquestionsp{
+    position: absolute;
+    top: -35px;
+    font-size: 15px;
+    font-weight:normal;
+    display: none;
+    left: 80px;
+    width: 200px;
+}
+#yourquestions{
+    position: absolute;
+    top: -50px;
+    display: none;
+}
+.rightquestion{
+    position: absolute;
+    right: 0px;
+    width: 20px;
+    height: 125px;
+    background-color: grey;
+    opacity: 0.5;
+    display: none;
+    z-index: 1;
+}
+.leftquestion{
+    position: absolute;
+    width: 20px;
+    height: 125px;
+    background-color: grey;
+    opacity: 0.5;
+    display: none;
+    z-index: 1;
+}
+#yourbookmarksp{
+    position: absolute;
+    top: 140px;
+    font-size: 15px;
+    font-weight:normal;
+    display: none;
+    left: 80px;
+    width: 200px;
+}
+#yourbookmarks{
+    position: absolute;
+    top: 125px;
+    display: none;
+}
+#youranswersp{
+    position: absolute;
+    top: 315px;
+    font-size: 15px;
+    font-weight:normal;
+    display: none;
+    left: 80px;
+    width: 200px;
+}
+#youranswers{
+    position: absolute;
+    top: 300px;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+.questionrepresentation{
+    position: relative;
+    float: left;
+    top: 0px;
+    margin-right: 10px;
+    left: 20px;
+    height: 125px;
+    width: 150px;
+    background-color: aqua;
+    display: none;
+}
+.detailedtitle{
+    position: relative;
+    top: -15px;
+    height: 53px;
+    background-color: #42A7FF;
+    color: white;
+    word-break: normal;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: lighter;
+}
+.detailedtagcon{
+    position: relative;
+    top: -31px;
+    height: 30px;
+    background-color: #006BAD;
+    padding-left: 6px;
+    padding-right: 6px;
+    overflow: hidden;
+}
+.detailednumbers{
+    position: relative;
+    top: -32px;
+    background-color:#006BAD;
+    font-size: 13px;
+    height: 34px;
+    color: aliceblue;
+}
+.tag{
+    position: relative;
+    display: inline-block;
+    padding-right: 4px;
+    padding-left: 4px;
+    top: 3px;
+    background-color: lightgray;
+    font-size: 12px;
+    margin-left: 5px;
+    margin-right: 0px;
+    border-radius: 6px;
+}
+.tagconbottom{
+    position: absolute;
+    top: 22px;
+    background-color: #006BAD;
+    height: 8px;
+    width: 150px;
+    left: 0px;
+}
+.detailedquestionreputation{
+    position: absolute;
+    top: 2px;
+    width: 40px;
+    text-align: center;
+}
+.detailedquestionreputationp{
+    position: absolute;
+    top: 15px;
+    left: 5px;
+}
+.detailedtotalrepofanswers{
+    position: absolute;
+    top: 2px;
+    width: 60px;
+    left: 40px;
+    text-align: center;
+}
+.detailedtotalrepofanswersp{
+   position: absolute;
+    top: 15px;
+    left: 40px;
+}
+.detailednumberofviews{
+    position: absolute;
+    top: 2px;
+    width: 50px;
+    left: 100px;
+    text-align: center;
+}
+.detailednumberofviewsp{
+    position: absolute;
+    top: 15px;
+    left: 105px;
+    
+}
+
+
+.hratbottom{
+    position: absolute;
+    bottom: -20px;
+    left: 0px;
+    width: 650px;
+    height: 1px;
+    border: none;
+    background-color: black;
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(black), to(#E3E3E3));
+}

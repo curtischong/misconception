@@ -1,0 +1,13 @@
+1
+,I#<3$$$,
+
+4!n!~cur123~~I#<3$$$~~splacorntwo~~splacorn~~undefined~
+Aug 5,2015
+Aug 5,2015!n!I#<3$$$!u!sdf!u!splacorn!u!hi!u!
+1!n!~I#<3$$$~~undefined~
+,undefined,
+splacorn
+the writing's on the wall!n!0!c!.!f!.!c!splacorn!c!hi!r!0!r!.!f!.!r!undefined!r!hi!r!!c!1!c!~I#<3$$$~.!f!.!c!splacorntwo!c!hi!r!!c!0!c!.!f!.!c!splacorn!c!hey!r!!c!0!c!.!f!.!c!splacorn!c!sup!r!!c!0!c!.!f!.!c!splacorntwo!c!hey!r!
+1!n!~splacorn~.!f!.!n!.!n!splacorn!n!this is my answer!n!0!c!.!f!.!c!splacorn!c!this is a comment!r!1!r!~splacorn~.!f!.!r!splacorn!r!hey!r!!c!0!c!.!f!.!c!splacorn!c!this is a really really really long comment... hi hi hi hi hi hi hi hi asdaaaaaaaaaaaahi h i hi hi h ih i hi hasdasdasdasdi hi h ih ih i asdhi hi hi hi h i h ih i h ih i hi h i isadasdasdaaaaaaaaaaaaaaaaa!r!!c!0!c!.!f!.!c!splacorn!c!hi!r!0!r!.!f!.!r!splacorn!r!this is a reply!r!
+0!n!.!f!.!n!.!n!splacorntwo!n!hi!n!0!c!.!f!.!c!splacorntwo!c!hey!r!!c!0!c!.!f!.!c!splacorn!c!hi!r!
+0!n!.!f!.!n!.!n!cur123!n!https://css-tricks.com/snippets/php/find-urls-in-text-make-links/

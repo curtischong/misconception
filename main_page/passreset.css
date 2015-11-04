@@ -1,0 +1,156 @@
+*{
+ font-family: Verdana;   
+}
+.center{
+    margin: 0 auto;
+}
+body{
+    background: linear-gradient(#363636, #006BAD);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
+#htmlpage{
+    background: linear-gradient(#9E9E9E 1%, #DEDEDE 99%);
+    background-repeat: no-repeat;
+    position: relative;
+    top: -8px;
+    width: 1030px;
+    min-height: 800px;
+}
+#navbar{
+    position: absolute;
+    background-color: #35B7DB;
+    top: 0px;
+    height: 40px;
+    min-width: 100%;
+    left: 0px;
+    z-index: 1;
+}
+#navbarinfo{
+    position: relative;
+    top: -8px;
+    left: 0px;
+    height: 40px;
+    z-index: 1;
+}
+#generalsearch{
+    position: absolute;
+    top: 7px; 
+    left: 150px;
+    width: 300px;
+    height:20px;
+}
+#navprofile{
+    position: relative;
+    top: 0px;
+    left: 1200px;
+    width: 200px;
+    height: 40px;
+    background-color: #00A32C;
+    cursor: pointer;
+    z-index: 1;
+}
+#navprofile:hover{
+    background-color: #308014;
+}
+#profilesettingcon{
+    position: relative;
+    top: -40px;
+    width: 200px;
+    height: 40px;
+    left: 1200px;
+    background-color: #0880A8;
+    color:bisque;
+}
+#accountsettings{
+    text-align: center;
+    cursor: pointer;
+}
+#logout{
+    text-align: center;
+    cursor: pointer;
+}
+#hyperlinkbuttons{
+    position: absolute;
+    top: 0px;
+    left: 500px;
+    width: 470px;
+    color: white;
+}
+#browsebutton{
+    position: relative;
+    display: inline;
+    float: left;
+    padding: 10px;
+}
+#homepagelink{
+    position: relative;
+    display: inline;
+    float: left;
+    padding: 10px;
+    cursor: pointer;
+}
+#ask{
+    position: relative;
+    cursor: pointer;
+    display: inline;
+    float: left;
+    padding: 10px;
+}
+#forum{
+    position: relative;
+    display: inline;
+    float: left;
+    padding: 10px;
+}
+#topbar{
+ background-color: #005B80;
+    height: 200px;
+    width: 1300px;
+}
+
+
+
+#username{
+    position: absolute;
+    top: 200px;
+    left: 400px;
+    padding: 5px;
+    width: 250px;
+}
+#code{
+    position: absolute;
+    top: 240px;
+    left: 400px;
+    padding: 5px;
+    width: 250px; 
+}
+#newpass{
+    position: absolute;
+    top: 280px;
+    left: 400px;
+    padding: 5px;
+    width: 250px;
+}
+#confirmpass{
+    position: absolute;
+    top: 320px;
+    left: 400px;
+    padding: 5px;
+    width: 250px;
+}
+#submit{
+    position: absolute;
+    top: 380px;
+    left: 450px;
+    padding:5px;
+    background-color: #00A32C;
+    color: white;
+    width: 150px;
+    text-align: center;
+    cursor: pointer;
+}
+#submit:hover{
+    background-color: #308014;
+}

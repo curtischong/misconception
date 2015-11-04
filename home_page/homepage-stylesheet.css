@@ -1,0 +1,290 @@
+*{
+ font-family: Verdana;   
+}
+.center{
+    margin: 0 auto;
+}
+body{
+    background-color: #EDEDED;
+    height: 100vh;
+}
+#htmlpage{
+    background-color: #EDEDED;
+    position: relative;
+    top: -8px;
+    width: 1030px;
+    height: 1500px;
+}
+#navbar{
+    position: absolute;
+    background-color: #35B7DB;
+    top: 0px;
+    height: 40px;
+    min-width: 100%;
+    left: 0px;
+    z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#navbarinfo{
+    position: relative;
+    top: -8px;
+    left: 0px;
+    height: 40px;
+    z-index: 1;
+}
+#generalsearch{
+    position: absolute;
+    top: 7px; 
+    left: 150px;
+    width: 300px;
+    height:20px;
+}
+#navprofile{
+    position: relative;
+    top: 0px;
+    left: 1200px;
+    width: 200px;
+    height: 40px;
+    background-color: #00A32C;
+    cursor: pointer;
+    z-index: 1;
+}
+#sessionusername{
+    position: absolute;
+    text-align: center;
+    color: white;
+    width: 200px;
+    top: 2px;
+    font-size: 17px;
+    text-decoration: underline;
+}
+#repandrankcon{
+    position: absolute;
+    top: 21px;
+    color: aliceblue;
+    left: 5px;
+    font-size: 15px;
+}
+#sessionreputation{
+    position: relative;
+    display: inline;
+    padding-right: 20px;
+}
+#sessionrank{
+    position: relative;
+    display: inline;
+}
+#navprofile:hover{
+    background-color: #308014;
+}
+#profilesettingcon{
+    position: relative;
+    top: -40px;
+    width: 200px;
+    height: 40px;
+    left: 1200px;
+    background-color: #0880A8;
+    color:bisque;
+}
+#accountsettings{
+    text-align: center;
+    cursor: pointer;
+}
+#logout{
+    text-align: center;
+    cursor: pointer;
+}
+#faillogindiv{
+    position: absolute;
+    left: 3px;
+}
+#loginorregister{
+position: absolute;
+    top: 18px;
+    left: 25px;
+    color: white;
+}
+#hyperlinkbuttons{
+    position: absolute;
+    top: 0px;
+    left: 500px;
+    width: 470px;
+    color: white;
+}
+#browsebutton{
+    position: relative;
+    display: inline;
+    float: left;
+    padding: 10px;
+}
+#homepagelink{
+    position: relative;
+    display: inline;
+    float: left;
+    padding: 10px;
+    cursor: pointer;
+}
+#ask{
+    position: relative;
+    cursor: pointer;
+    display: inline;
+    float: left;
+    padding: 10px;
+}
+#faillogindiv{
+    position: absolute;
+    left: 3px;
+}
+#loginorregister{
+position: absolute;
+    top: 18px;
+    left: 25px;
+    color: white;
+}
+#forum{
+    position: relative;
+    display: inline;
+    float: left;
+    padding: 10px;
+}
+#searchmisconception{
+    position: absolute;
+    top: 50px;
+    left: 240px;
+    padding: 7px;
+    height: 25px;
+    width: 500px;
+    outline:none;
+    border: 1px solid black;
+}
+#searchmisconception::-webkit-input-placeholder {
+   font-size: 14px;
+}
+#holdsearchresults{
+    position: absolute;
+    top: 150px;
+    left: 115px;
+    width: 800px;
+    height: 800px;
+    background-color: #EDEDED;;
+}
+.searchresult{
+    position: relative;
+    margin-top: 10px;
+    width: 800px;
+    height: 100px;
+    background-color: #006BAD;;
+}
+.maininfo{
+     position: absolute;
+    width: 550px;
+    height: 100px;
+    background-color: #42A7FF;
+}
+.misconceptiontitle{
+    position: absolute;
+    top: 5px;
+    left: 25px;
+    font-size: 18px;
+    width: 520px;
+    height: 25px;
+    overflow: hidden;
+}
+.querylink{
+    color: white;
+}
+.specificinfo{
+    position: absolute;
+    left: 550px;
+    width: 250px;
+    height: 100px;
+    background-color: cadetblue;
+}
+.tagbox{
+    position: absolute;
+    top: 40px;
+    width: 250px;
+    height: 60px;
+    background-color: #006BAD;
+}
+.tag{
+    position: relative;
+    display: inline-block;
+    padding: 2px;
+    top: 3px;
+    background-color: lightgray;
+    font-size: 12px;
+    margin-left: 7px;
+    border-radius: 6px;
+}
+.numbers{
+ position: absolute;
+    width: 250px;
+    background-color: #006BAD;
+    height: 40px;
+    color: aliceblue;
+}
+.questionreputation{
+    position: absolute;
+    left: 0px;
+    width: 65px;
+    text-align: center;
+}
+.questionreputationp{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    font-size: 13px;
+}
+.totalrepofanswers{
+    position: absolute;
+    left: 65px;
+    width: 85px;
+    text-align: center;
+}
+.totalrepofanswersp{
+    position: absolute;
+    left: 70px;
+    top: 20px;
+    font-size: 13px;
+}
+.numberofviews{
+    position: absolute;
+    left: 150px;
+    width: 100px;
+    text-align: center;
+}
+.numberofviewsp{
+    position: absolute;
+    left: 180px;
+    top: 20px;
+    font-size: 13px;
+}
+.querycontent{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    width: 515px;
+    font-size: 15px;
+    height: 55px;
+    overflow: hidden;
+}

@@ -1,0 +1,575 @@
+*{
+ font-family: Verdana;   
+}
+.center{
+    margin: 0 auto;
+}
+.xbutton{
+    color: white;
+    position: relative;
+    left: 5px;
+    top: -6px;
+    font-size: 27px;
+}
+.write{
+     position: relative;
+    top: 30px;
+    width: 250px;
+    height: 200px;
+    word-wrap: break-word;
+    resize: none;
+    left: 20px;
+}
+.edit{
+    position: relative;
+    padding-top: 30px;
+    width: 200px;
+    left: 20px;
+    cursor: pointer;
+}
+.unchangeinfo{
+    position: relative;
+    left:20px;
+}
+.personaldata{
+ background-color: bisque;
+    padding-left: 20px;
+}
+
+.answer{
+    position: relative;
+    top: 5px;
+    left: 20px;
+    width: 625px;
+    resize: none;
+    word-wrap: break-word;
+}
+.solutionsdiv{
+    position: relative;
+    width: 670px;
+    background-color: darkorange;
+}
+.hrbeforecomments{
+    position: relative;
+}
+.directcommenttoquestion{
+    position: relative;
+    top: -1px;
+    width: 670px;
+    padding-bottom: 2px;
+    padding-top: 1px;
+    background-color: blue;
+    z-index: 10;
+}
+.commentp{
+    position: relative;
+    left: 10px;
+    width: 625px;
+    display: inline;
+    word-break: normal;
+    word-wrap: break-word;
+}
+.commentusername{
+    position: relative;
+    left: 5px;
+    color: darkgrey;
+    display: inline;
+}
+
+.commentupvotedownvotecon{
+ position: relative;
+    right: 20px;
+    top: -14px;
+}
+.commentupvote{
+    position: absolute;
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-bottom: 16px solid red;
+    left: -15px;
+    display: none;
+}
+.commentrep{
+    position: absolute;
+    top: 14px;
+    text-align: center;
+    width: 30px;
+    left: -6px;
+}
+.commentflag{
+    position: absolute;
+    top: 25px;
+    left: -14px;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#closecreate{
+ 	width: 26px;
+	height: 26px;
+	background: #005B80;
+	border-radius:13px;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+    cursor: pointer;
+}
+body{
+    background: linear-gradient(#363636, #006BAD);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
+#htmlpage{
+    background: linear-gradient(#9E9E9E 1%, #DEDEDE 99%);
+    background-repeat: no-repeat;
+    position: relative;
+    top: -8px;
+    width: 1030px;
+}
+#navbar{
+    position: absolute;
+    background-color: #35B7DB;
+    top: 0px;
+    height: 40px;
+    min-width: 100%;
+    left: 0px;
+    z-index: 1;
+}
+#navbarinfo{
+    position: relative;
+    top: -8px;
+    left: 0px;
+    height: 40px;
+    z-index: 1;
+}
+#generalsearch{
+    position: absolute;
+    top: 7px; 
+    left: 150px;
+    width: 300px;
+    height:20px;
+}
+#navprofile{
+    position: relative;
+    top: 0px;
+    left: 1200px;
+    width: 200px;
+    height: 40px;
+    background-color: #00A32C;
+    cursor: pointer;
+    z-index: 1;
+}
+#navprofile:hover{
+    background-color: #308014;
+}
+#profilesettingcon{
+    position: relative;
+    top: -40px;
+    width: 200px;
+    height: 40px;
+    left: 1200px;
+    background-color: #0880A8;
+    color:bisque;
+}
+#accountsettings{
+    text-align: center;
+    cursor: pointer;
+}
+#logout{
+    text-align: center;
+    cursor: pointer;
+}
+#faillogindiv{
+    position: absolute;
+    left: 3px;
+}
+#loginorregister{
+position: absolute;
+    top: 18px;
+    left: 25px;
+    color: white;
+}
+#hyperlinkbuttons{
+    position: absolute;
+    top: 0px;
+    left: 500px;
+    width: 470px;
+    color: white;
+}
+#browsebutton{
+    position: relative;
+    display: inline;
+    float: left;
+    padding: 10px;
+}
+#homepagelink{
+    position: relative;
+    display: inline;
+    float: left;
+    padding: 10px;
+    cursor: pointer;
+}
+#ask{
+    position: relative;
+    cursor: pointer;
+    display: inline;
+    float: left;
+    padding: 10px;
+}
+#forum{
+    position: relative;
+    display: inline;
+    float: left;
+    padding: 10px;
+}
+
+#questiontitle{
+    position: relative;
+    top: 50px;
+    left: 140px;
+    color: white;
+    font-size: 20px;
+}
+#whatithinkiknow{
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    height: 500px;
+    width: 670px;
+    background-color: firebrick;
+    color: white;
+}
+#questionhiddencomments{
+    position: absolute;
+    top: 100px;
+    height: 500px;
+    width: 270px;
+    left: 740px;
+    background-color: bisque;
+    z-index: 2;
+    display: none;
+}
+.questionupvotes{
+ display: none;
+}
+.questiondownvotes{
+ display: none;
+}
+#whatithinkiknowp{
+    position: absolute;
+    word-wrap: break-word;
+    top: 0px;
+    left: 10px;
+    width: 650px;
+}
+#questioncommentbox{
+    position: absolute;
+    left: 50px;
+    width: 670px;
+}
+#questioncommentinputdiv{
+    position: relative;
+    height: 30px;
+    background-color: aqua;
+}
+#createcommenttoanswer{
+    position: relative;
+    left: 10px;
+    top: 5px;
+    width: 647px;
+}
+#questioncommentcon{
+    position: relative;
+    padding-top: 1px;
+    padding-bottom: 2px;   
+}
+#helpdiv{
+    position: absolute;
+    top: 140px;
+    left: 740px;
+    height: 500px;
+    width: 270px;
+    background-color: darkcyan;
+}
+
+
+
+
+
+
+
+
+
+
+#questionstatistic{
+    position: relative;
+    width: 270px;
+    height: 110px;
+    background-color: darkorchid;
+}
+.outsiderep{
+    position: absolute;
+    top: 10px;
+    left: -50px;
+    font-size: 20px;
+    color: grey;
+    width: 50px;
+    text-align: center;
+}
+.reputationdiv{
+    position: relative;
+    top: 10px;
+    left: 13px;
+    width: 50px;
+    height: 110px;
+}
+.uptriangle{
+    position: absolute;
+    left: 2px;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-bottom: 30px solid red;
+}
+.questionreputation{
+    position: absolute;
+    top: 35px;
+    left: -18px;
+    color: white;
+    width: 70px;
+    text-align: center;
+}
+.downtriangle{
+    position: absolute;
+    top: 60px;
+    left: 2px;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-top: 30px solid red;  
+}
+#questionstatistics{
+    position: absolute;
+    top:15px;
+    left: 56px;
+    color: white;
+    width: 214px;
+    background-color: black;
+    font-size: 13px;
+}
+#numberofviews{
+    position: absolute;
+}
+#dateasked{
+    position: absolute;
+    top: 20px;
+}
+#lastactive{
+    position: absolute;
+    top: 40px;
+}
+#numberofbookmarks{
+    position: absolute;
+    top: 60px;
+}
+
+#tags{
+    position: relative;
+    height: 120px;
+    width: 270px;
+    background-color:forestgreen;
+}
+
+.profile{
+    position: relative;
+    height: 80px;
+    width: 270px;
+    background-color: deepskyblue;
+}
+.profileinformation{
+    position: absolute;
+    color: white;
+    top: 10px;
+    left: 100px;
+    font-size: 15px;
+    width: 400px;
+}
+#questionaskedby{
+    position: absolute;
+    left: 60px;
+    color: white;
+    font-size: 16px;
+}
+.name{
+    position: relative;
+    top: 10px;
+    width: 200px;
+}
+.creatorreputation{
+    position: relative;
+    top: 10px;
+}
+.rank{
+    position: relative;
+    top: 10px;
+    
+}
+#questionadditionalbuttons{
+    position: relative;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    left: 9px;
+    color: white;
+}
+#flaganswer{
+    position: relative;
+    width: 50px;
+    display: inline;
+}
+#sharequestion{
+    position: relative;
+    left: 15px;
+    width: 50px;
+    display: inline;
+}
+
+
+
+
+
+#solutionsdivcon{
+    position: absolute;
+   left: 50px;
+}
+.solutioninfodiv{
+    position: absolute;
+    background-color: blueviolet;
+    top: 0px;
+    left: 690px;
+    height: 190px;
+    width: 270px;
+    z-index: 1;
+}
+.hiddencomments{
+ position: absolute;
+    background-color:bisque;
+    top: 0px;
+    left: 690px;
+    height: 500px;
+    width: 270px;
+    z-index: 2;
+    display: none;
+}
+.answeredby{
+    position: absolute;
+    left: 60px;
+    color: white;
+    font-size: 16px;  
+}
+.answeradditionalbuttons{
+    position: absolute;
+    top:27px;
+    left: 70px;
+    background-color: aqua;
+    color: white;
+}
+.commentofanswer{
+    position: relative;
+}
+.addcomment{
+    
+}
+.flaganswer{
+    
+}
+.sharequestion{
+    
+}
+.commenttoanswer{
+    position: relative;
+    width: 655px;
+    left: 5px;
+    top: 5px;
+}
+.commenttoanswerdiv{
+    position: relative;
+    height: 33px;
+    background-color: cyan;
+    display: none;
+}
+.whoupvotedcomment{
+    display: none;
+}
+
+
+#answerquestiondiv{
+    position: absolute;
+    left: 50px;
+    height: 300px;
+    width: 670px;
+    background-color:darkcyan;
+}
+#answerquestionarea{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 615px;
+    height: 245px;
+    resize: none;
+    overflow:auto;
+    word-wrap:break-word;
+    padding: 6px;
+}
+#answerquestioninstruction{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    font-size: 13px;
+}
+#submitanswer{
+    position: absolute;
+    top: 200px;
+    width: 250px;
+    height: 30px;
+    background-color: green;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 15px;
+}
+.viewmorecommentsb{
+    position: relative;
+    width: 670px;
+    background-color: darkgreen;
+    text-align: center;
+}
+#viewmorecommentsb{
+    position: relative;
+    width: 670px;
+    background-color: darkgreen;
+    text-align: center;
+}
+.tagbox{
+    position: relative;
+    display: inline;
+    padding: 2px;
+    top: 3px;
+    background-color: lightgray;
+    font-size: 12px;
+}

@@ -1,0 +1,11 @@
+1
+,splacorn,
+
+1!n!~splacorn~~undefined~
+Aug 3,2015
+Aug 3,2015!n!
+0!n!~undefined~
+,undefined,
+splacorn
+food!n!
+-1!n!.!f!.!n!~splacorn~.!n!splacorn!n!sup
